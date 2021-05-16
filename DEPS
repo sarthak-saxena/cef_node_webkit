@@ -5,3 +5,7 @@ hooks = [
     "action": ["python", "src/cef/tools/gclient_hook.py"],
   },
 ]
+
+deps = [{
+  'src/third_party/WebKit': 'https://chromium.googlesource.com/external/github.com/WebKit/webkit.git'
+}]
